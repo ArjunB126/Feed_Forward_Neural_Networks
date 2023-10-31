@@ -17,3 +17,22 @@ Neurons in the hidden and output layers apply activation functions to their weig
 
 # 4.Forward Pass:
 During inference or prediction, data flows through the network in a forward pass. Input values are processed layer by layer, with each neuron in a layer computing its weighted sum of inputs and applying the activation function to produce an output.
+
+# 5. Learning and Training:
+
+To make accurate predictions, the network's weights are initially set to random values. The network learns from labeled training data using optimization techniques like gradient descent and backpropagation. The goal is to minimize a loss function, which measures the difference between predicted and actual values.
+The learning process adjusts the weights iteratively to improve the network's performance on the training data.
+
+# 6.Use Cases:
+Feedforward neural networks are widely used for various machine learning tasks, including pattern recognition, image and speech recognition, natural language processing, regression, and classification.
+
+
+
+
+
+
+
+
+
+
+
