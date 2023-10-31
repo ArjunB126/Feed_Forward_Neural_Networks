@@ -11,3 +11,9 @@ Output Layer: The output layer produces the final predictions or classifications
 
 # 2. Connections:
 Each neuron in one layer is connected to every neuron in the subsequent layer, and these connections are associated with weights. These weights determine the strength of the connections and are learned during the training process.
+
+# 3. Activation Functions:
+Neurons in the hidden and output layers apply activation functions to their weighted inputs. Common activation functions include the sigmoid, hyperbolic tangent (tanh), and rectified linear unit (ReLU). Activation functions introduce non-linearity to the network, enabling it to model complex relationships in the data.
+
+# 4.Forward Pass:
+During inference or prediction, data flows through the network in a forward pass. Input values are processed layer by layer, with each neuron in a layer computing its weighted sum of inputs and applying the activation function to produce an output.
